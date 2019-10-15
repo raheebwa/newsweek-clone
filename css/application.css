@@ -6,10 +6,6 @@ body {
   background-color: #eee;
 }
 
-.main {
-  margin-top: 9vh;
-}
-
 .navbar-red {
   background-color: #f72210;
 }
@@ -18,6 +14,13 @@ body {
   width: 97%;
   margin-right: auto;
   margin-left: auto;
+}
+
+@media screen and (max-width: 425px) {
+  .main-nav {
+    display: flex;
+    flex-direction: row;
+  }
 }
 
 .main-nav .nav-item .nav-link {
@@ -37,6 +40,15 @@ body {
   color: rgba(255, 255, 255, 0.75);
 }
 
+@media screen and (max-width: 425px) {
+  .main-nav .nav-item .nav-link {
+    font-weight: 700;
+    line-height: 17px;
+    font-size: 15px;
+    padding: 2px 3px;
+  }
+}
+
 .main-nav .nav-item .signin {
   color: #f72210;
   background-color: #fff;
@@ -44,6 +56,12 @@ body {
 
 .main-nav .nav-item .signin:hover {
   color: #f72210;
+}
+
+@media screen and (max-width: 768px) {
+  .main {
+    margin-top: 10vh;
+  }
 }
 
 .sec-title {
