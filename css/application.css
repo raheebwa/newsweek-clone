@@ -1,0 +1,256 @@
+.nw-logo {
+  color: #f72210;
+}
+
+body {
+  background-color: #eee;
+}
+
+.navbar-red {
+  background-color: #f72210;
+}
+
+.container-ramar {
+  width: 97%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.main-nav .nav-item .nav-link {
+  text-transform: uppercase;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: white;
+  font-weight: 700;
+  line-height: 20px;
+  font-size: 21px;
+}
+
+.main-nav .nav-item .nav-link:hover {
+  color: white;
+}
+
+.main-nav .nav-item .nav-link .fa {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+@media screen and (max-width: 425px) {
+  .main-nav {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .main-nav .nav-item .nav-link {
+    font-weight: 700;
+    line-height: 17px;
+    font-size: 15px;
+    padding: 2px 3px;
+  }
+}
+
+.main-nav .nav-item .signin {
+  color: #f72210;
+  background-color: #fff;
+}
+
+.main-nav .nav-item .signin:hover {
+  color: #f72210;
+}
+
+@media screen and (max-width: 768px) {
+  .main {
+    margin-top: 10vh;
+  }
+}
+
+.sec-title {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #aeaeae;
+  font-weight: 700;
+  line-height: 28px;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.media-opinions img,
+.media-news img {
+  width: 25%;
+}
+
+.media-opinions a,
+.media-news a {
+  text-decoration: none;
+  color: #616161;
+  text-transform: uppercase;
+}
+
+.media-opinions .media-body,
+.media-news .media-body {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #aeaeae;
+  font-weight: 700;
+  text-transform: capitalize;
+  font-size: 1rem;
+}
+
+.media-opinions .media-body a,
+.media-news .media-body a {
+  text-decoration: none;
+  color: #616161;
+  text-transform: uppercase;
+}
+
+.media-opinions .media-body .media-heading,
+.media-news .media-body .media-heading {
+  line-height: 1.2rem;
+  font-size: 1rem;
+}
+
+.media-opinions .media-body .media-heading a,
+.media-news .media-body .media-heading a {
+  color: black;
+  text-decoration: none;
+}
+
+.media-opinions .media-body .media-heading a:hover,
+.media-news .media-body .media-heading a:hover {
+  color: #f72210;
+}
+
+.media-news img {
+  width: 40%;
+}
+
+.red-label {
+  color: white;
+  background-color: #f72210;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 900;
+  padding: 2px 5px;
+  margin: 2px;
+}
+
+.red-shadow {
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+  box-shadow: 2px 3px #f72210;
+}
+
+.p-title {
+  padding: 5px 0;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 600;
+  line-height: 26px;
+  font-size: 24px;
+}
+
+.card {
+  border: none;
+  border-radius: 0;
+}
+
+.card .card-img-top {
+  min-height: 150px;
+  border-radius: 0;
+}
+
+.card .text-overlay {
+  margin-top: -28px;
+  padding: 2px 3px;
+  width: fit-content;
+  background-color: #eee;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #f72210;
+  font-weight: 700;
+  line-height: 24px;
+  font-size: 21px;
+}
+
+.card .text-overlay-shadow {
+  border-left: 1px solid #f72210;
+  border-top: 1px solid #f72210;
+  box-shadow: -2px -3px #eee;
+}
+
+.card .article-cat {
+  padding: 2px 3px;
+  width: fit-content;
+  background-color: #d4d4d4;
+  text-transform: capitalize;
+}
+
+.card .card-title {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: black;
+  font-weight: 700;
+  line-height: 24px;
+  font-size: 21px;
+}
+
+.card .card-body {
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  line-height: 16px;
+  font-size: 15px;
+  color: #333;
+}
+
+.card .card-body .spans {
+  padding: 5px 0;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #f72210;
+  font-weight: 600;
+  line-height: 24px;
+  font-size: 22px;
+}
+
+.btn-red {
+  background-color: #f72210;
+  border-radius: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 600;
+}
+
+.red-heading {
+  padding: 5px 0;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #f72210;
+  font-weight: 600;
+  line-height: 24px;
+  font-size: 22px;
+}
+
+.special-aticles .card .card-title {
+  font-family: 'Lora', serif;
+  font-weight: 400;
+  text-align: left;
+}
+
+.list-inline {
+  font-size: 0.85rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.soc {
+  font-size: 1.5rem;
+  align-self: bottom;
+  position: relative;
+  bottom: 0;
+}
+
+.soc .soc-links {
+  margin-right: 1vw;
+}
+
+.soc .soc-links:hover {
+  color: #f72210;
+}
+
+.copyright {
+  vertical-align: bottom;
+  font-size: 0.85rem;
+}
+
+.row {
+  margin: auto;
+}
